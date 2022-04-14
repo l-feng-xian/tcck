@@ -86,6 +86,6 @@ body{
     clear: both;
     visibility: hidden;
 }
-.clearfix{
+/* .clearfix{
     *zoom: 1;
-}
+} */
