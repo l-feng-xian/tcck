@@ -1,8 +1,6 @@
 <template>
   <div class="base-title">
-      <span></span>
-      <p>{{props.title}}</p>
-      <slot></slot>
+      <p class="base-title-text">{{'勤务支援'}}</p>
   </div>
 </template>
 
@@ -14,8 +12,17 @@ const props = defineProps({
 
 <style scoped>
 .base-title {
-  width: 100%;
-  height: 40px;
-  display: flex;
+  width: 400px;
+  height: 64px;
+  background-image: url(../assets/images/titlebg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -30px;
+}
+.base-title-text {
+  width: 100px;
+  color: #fff;
+  text-indent: 20px;
+  line-height: 50px;
 }
 </style>
